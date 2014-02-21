@@ -64,7 +64,7 @@ public class MetaParser {
     }
 
     private static List<String> preprocessImages(Set<String> images, String url) {
-        List<String> result = new ArrayList<>();
+        List<String> result = new ArrayList<String>();
         StringBuffer sb = new StringBuffer(url);
         if(url.endsWith("/")) {
             sb.deleteCharAt(sb.length() - 1);
@@ -81,11 +81,11 @@ public class MetaParser {
     }
 
     private static Map<String, Object> getDefaultResult(String url) {
-        Map<String, Object> result = new LinkedHashMap<>();
+        Map<String, Object> result = new LinkedHashMap<String, Object>();
         result.put("url", url);
         result.put("title", "");
         result.put("description", "");
-        result.put("images", new ArrayList<>());
+        result.put("images", new ArrayList<String>());
         return result;
     }
 

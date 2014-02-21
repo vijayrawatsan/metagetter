@@ -4,7 +4,7 @@
 	<groupId>com.vjr</groupId>
 	<artifactId>meta-getter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<properties>
 		<springframework.version>3.2.3.RELEASE</springframework.version>
@@ -26,7 +26,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<mainClass>com.vjr.rest.Main</mainClass>
+					<mainClass>com.vjr.api.Main</mainClass>
 					<arguments>
 						<argument>foo</argument>
 						<argument>bar</argument>
