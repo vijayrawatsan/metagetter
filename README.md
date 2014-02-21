@@ -3,7 +3,9 @@
 MetaGetter is a handy library written in java, for getting meta information from any url. 
 
 Examples:
-Hit => [http://localhost:8081?url=https://gist.github.com/berg/9142463]
+Hit => 
+http://localhost:8081?url=https://gist.github.com/berg/9142463
+```
 Output =>
 {
 	url: "https://gist.github.com/berg/9142463",
@@ -13,8 +15,10 @@ Output =>
 				"https://2.gravatar.com/avatar/6d68d7deb2bfecfdd356fcc4d2833d5a?d=https%3A%2F%2Fidenticons.github.com%2F847be4f9bc5b840f9c9cbcadbcfcff7c.png&s=140"
 			]
 }
-
-Hit => [http://localhost:8081?url=http://arstechnica.com/tech-policy/2014/02/harvard-supercomputing-cluster-hijacked-to-produce-alt-cryptocurrency/]
+```
+Hit => 
+http://localhost:8081?url=http://arstechnica.com/tech-policy/2014/02/harvard-supercomputing-cluster-hijacked-to-produce-alt-cryptocurrency/
+```
 Output =>
 {
 	url: "http://arstechnica.com/tech-policy/2014/02/harvard-supercomputing-cluster-hijacked-to-produce-alt-cryptocurrency/",
@@ -35,7 +39,7 @@ Output =>
 				"http://cdn.arstechnica.net/wp-content/themes/arstechnica/assets/images/ad_choices_arrow.png"
 			]
 }
-
+```
 ## Why?
 
 Well, I needed a similar functionality like facebook url parsing. 
@@ -51,4 +55,4 @@ google-guava CacheBuilder. Or use redis if you want.
 ## License
 
 This program is free software; it is distributed under an
-[The MIT License](https://github.com/vijayrawatsan/meta-getter/blob/master/LICENSE).
+[The MIT License](https://github.com/vijayrawatsan/metagetter/blob/master/LICENSE).
