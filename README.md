@@ -3,11 +3,10 @@
 MetaGetter is a handy library written in java, for getting meta information from any url. 
 
 Examples:
-Hit => 
+
 ```
 http://localhost:8081?url=https://gist.github.com/berg/9142463
 ```
-Output =>
 ```javascript
 {
 	url: "https://gist.github.com/berg/9142463",
@@ -18,11 +17,10 @@ Output =>
 			]
 }
 ```
-Hit => 
+
 ```
 http://localhost:8081?url=http://arstechnica.com/tech-policy/2014/02/harvard-supercomputing-cluster-hijacked-to-produce-alt-cryptocurrency/
 ```
-Output =>
 ```javascript
 {
 	url: "http://arstechnica.com/tech-policy/2014/02/harvard-supercomputing-cluster-hijacked-to-produce-alt-cryptocurrency/",
