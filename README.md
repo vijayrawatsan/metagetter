@@ -2,6 +2,10 @@
 
 MetaGetter is a handy library written in java, for getting meta information from any url. 
 
+## Running?
+```
+mvn clean install exec:java
+```
 Examples:
 
 ```
